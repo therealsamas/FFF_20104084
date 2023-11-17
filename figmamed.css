@@ -1,0 +1,305 @@
+body{
+	background: #82D1E2;
+	margin: 0;
+	height: 120%;
+
+}
+
+.robot{
+	font-family: Roboto;
+}
+.white{
+	color: white;
+}
+.tcenter{
+	text-align: center;
+}
+.foot{
+	margin-top: -20%;
+}
+.thic{
+	font-weight: bolder;
+}
+.monosp{
+	font-family: monospace;
+}
+.i-b{
+	display: inline-block;
+}
+
+.captial{
+	text-transform: uppercase;
+}
+.colflex{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.rowflex{
+	display: flex;
+	flex-direction: row;
+}
+
+.ov-hid{
+	overflow: hidden;
+}
+.whitebox{
+	border: 1px solid whitesmoke;
+}
+.calign{
+	margin-left: auto;
+	margin-right: auto;
+}
+.negmargintop{
+	margin-top: 21%;
+}
+.posmargintop{
+	margin-top: 4%;
+}
+.posmarginbot{
+	margin-bottom: 3%;
+}
+
+.left{
+	width: 30%;
+}
+.sp-betw{
+	justify-content: space-between;
+}
+.sp-ar{
+	justify-content: space-around;
+}
+.bigfont{
+	font-size: 20px;
+}
+.bigfont-u1{
+	font-size: 28px;
+}
+.medfont{
+	font-size: 12px;
+}
+.center{
+/*	transform: translateY(100px);*/
+	display: flex;
+	flex-direction: column;
+}
+/*.zerobottom{
+	margin-bottom: 0;
+	margin-top: -1%;
+}
+.zeroupper{
+	margin-bottom: -1%;
+	margin-top: 0;
+}*/
+.autoleftright{
+    margin-right: auto;
+    margin-left: auto;
+}
+/*.neg-top{
+	margin-top: -10%;
+}*/
+
+.bot-cen{
+	flex-direction: column-reverse;
+}
+.top-cen{
+	flex-direction: column;
+}
+
+.f-ord-1{
+	order: 1;
+}
+.f-ord-2{
+	order: 2;
+}
+
+.f-gr-1{
+	flex-grow: 1;
+}
+
+.f-gr-25{
+	flex-grow: 25;
+}
+.f-gr-75{
+	flex-grow: 75;
+}
+
+.uppercard{
+	transform: translateY(-300px);
+}
+/*.upperchar{
+	transform: translateY(-100px);
+}*/
+
+/*.top-t{
+	top:40%;
+}
+.top-b{
+	top:52%;
+}*/
+
+.selected{
+  color: #ffcc00; /* Change the color to a bright yellow on hover */
+  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+/*	box-shadow: 0px 10px 4px 10px gold;*/
+}
+.skill.skill-sel::after{
+	animation-duration: 0.6s;
+}
+.skill.skill-sel::before{
+	animation-duration: 0.6s;
+}
+.rnd-bor{
+	border-radius: 15%;
+}
+
+
+.fit-img{
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.negmargintop{
+	margin-top: 21%;
+}
+
+.nav-bar{
+	width: 100vw;
+	height: 6%;
+	display: flex;
+	background-color: #6a5cba;
+/*	position: absolute;*/
+	top: 0;
+	left: 0;
+	margin: 0;
+	overflow: hidden;
+/*	z-index: 10;*/
+	box-shadow: 0 13px 7px 0 rgba(0,0,0,0.35);
+/*	transition: ease-in-out;*/
+}
+
+
+.yellowrec{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.bluerec{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.parentform{
+width:883px;
+height: 508px;
+flex-shrink: 0;
+background-color: whitesmoke;
+margin-top: 108px;
+margin-left: 300px;
+border-radius: 45px;
+border: 0px solid #000;
+background: #FFF9F9;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.left{
+border-radius: 45px 0px 0px 45px;
+/*background: url(./archive/Recta2.png), lightgray 50% / cover no-repeat;*/
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+width: 400px;
+}
+
+.logo{
+	color: #000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Poppins;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 9.28px;
+	margin-left: 60px;
+	margin-top: -10px;
+}
+
+.login{
+	color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 6.96px;
+margin-top:20px;
+margin-left: 60px;
+}
+
+.google{
+border: 0px solid #000;
+background: #FDF8F8;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 402px;
+height: 40px;
+flex-shrink: 0;
+margin-left: 40px;
+margin-top: 20px;
+padding: 10px;
+}
+
+.contwithgoogle{
+	color: rgba(0, 0, 0, 0.95);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2.4px;
+	margin-top: 10px;
+}
+
+.bott-half{
+width: 349px;
+height: 184px;
+flex-shrink: 0;
+border-radius: 45px;
+background: rgba(168, 234, 248, 0.82);
+margin-left: 50px;
+}
+
+.name{
+color: #000;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.password{
+color: #000;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.forgot{
+	color: #3797DA;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.loginuser{
+border-radius: 43px;
+background: rgba(56, 82, 215, 0.89);
+margin-left: 140px;
+}

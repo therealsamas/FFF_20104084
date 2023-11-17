@@ -1,0 +1,320 @@
+body{
+	background-color: whitesmoke;
+	margin: 0;
+	height: 120%;
+
+}
+
+.robot{
+	font-family: Roboto;
+}
+.white{
+	color: white;
+}
+.tcenter{
+	text-align: center;
+}
+.foot{
+	margin-top: -20%;
+}
+.thic{
+	font-weight: bolder;
+}
+.monosp{
+	font-family: monospace;
+}
+.i-b{
+	display: inline-block;
+}
+
+.captial{
+	text-transform: uppercase;
+}
+.colflex{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.rowflex{
+	display: flex;
+	flex-direction: row;
+}
+
+.ov-hid{
+	overflow: hidden;
+}
+.whitebox{
+	border: 1px solid whitesmoke;
+}
+.calign{
+	margin-left: auto;
+	margin-right: auto;
+}
+.negmargintop{
+	margin-top: 21%;
+}
+.posmargintop{
+	margin-top: 4%;
+}
+.posmarginbot{
+	margin-bottom: 3%;
+}
+
+.left{
+	width: 30%;
+}
+.sp-betw{
+	justify-content: space-between;
+}
+.sp-ar{
+	justify-content: space-around;
+}
+.bigfont{
+	font-size: 20px;
+}
+.bigfont-u1{
+	font-size: 28px;
+}
+.medfont{
+	font-size: 12px;
+}
+.center{
+/*	transform: translateY(100px);*/
+	display: flex;
+	flex-direction: column;
+}
+/*.zerobottom{
+	margin-bottom: 0;
+	margin-top: -1%;
+}
+.zeroupper{
+	margin-bottom: -1%;
+	margin-top: 0;
+}*/
+.autoleftright{
+    margin-right: auto;
+    margin-left: auto;
+}
+/*.neg-top{
+	margin-top: -10%;
+}*/
+
+.bot-cen{
+	flex-direction: column-reverse;
+}
+.top-cen{
+	flex-direction: column;
+}
+
+.f-ord-1{
+	order: 1;
+}
+.f-ord-2{
+	order: 2;
+}
+
+.f-gr-1{
+	flex-grow: 1;
+}
+
+.f-gr-25{
+	flex-grow: 25;
+}
+.f-gr-75{
+	flex-grow: 75;
+}
+
+.uppercard{
+	transform: translateY(-300px);
+}
+/*.upperchar{
+	transform: translateY(-100px);
+}*/
+
+/*.top-t{
+	top:40%;
+}
+.top-b{
+	top:52%;
+}*/
+
+.selected{
+  color: #ffcc00; /* Change the color to a bright yellow on hover */
+  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+/*	box-shadow: 0px 10px 4px 10px gold;*/
+}
+.skill.skill-sel::after{
+	animation-duration: 0.6s;
+}
+.skill.skill-sel::before{
+	animation-duration: 0.6s;
+}
+.rnd-bor{
+	border-radius: 15%;
+}
+
+
+.fit-img{
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.negmargintop{
+	margin-top: 21%;
+}
+
+.nav-bar{
+	width: 100vw;
+	height: 6%;
+	display: flex;
+	background-color: #6a5cba;
+/*	position: absolute;*/
+	top: 0;
+	left: 0;
+	margin: 0;
+	overflow: hidden;
+/*	z-index: 10;*/
+	box-shadow: 0 13px 7px 0 rgba(0,0,0,0.35);
+/*	transition: ease-in-out;*/
+}
+
+
+.navflex{
+	width: 100vw;
+	text-align: center;
+}
+
+
+.comp-logo{
+	width: 120px;
+	margin-left: 20px;
+	height: 30px;
+}
+
+.logsign{
+	margin: 0;
+	padding: 0.5%;	
+	flex-grow: 1;
+}
+
+
+#hlisttop{
+	list-style: none;
+	margin:0;
+/*	margin-left: 5%;*/
+	text-align: center;
+	padding: 0.5%;
+
+}
+#hlisttop li{
+	display: inline-block;
+	margin: 0px 20px 10px 0px;
+}
+#hlisttop li a{
+	color: black;
+	text-decoration: none;
+	padding: 15%;
+/*	font-weight: bolder;*/
+/*	font-family: monospace;*/
+	text-transform: uppercase;
+}
+
+
+.mid-div{
+	width: 100vw;
+	height: 110vh;
+/*	background-color: limegreen;*/
+}
+
+
+
+.mid-div-foot {
+    width: 100vw;
+    height: 53px;
+    background-color: #A69DEC;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+
+.mid-content{
+	height: 80px;
+	width: 300px;
+	margin-left: 30px;
+}
+.foot-flex{
+	height: 300px;
+	width: 100vw;
+	background-color: #37383C;
+
+}
+.dummy{
+	color: #505258;
+}
+.side-flx{
+	margin-right: 40px;
+}
+
+.inp-em{
+	width: 400px;
+	height: 25px;
+	border-radius: 10px;
+	box-shadow: 0px 8px 24px -4px #FFFFFF26;
+
+	box-shadow: 0px 6px 12px -6px #FFFFFF40;
+
+}
+.submit-btm {
+    width: 99px;
+    height: 20px;
+    position: absolute;
+    z-index: 11;
+    margin-left: 10px;
+    transform: translateX(-29px) translateY(6px);
+    /* top: 2.4px; */
+    /* left: 504px; */
+    right: 0;
+    padding: 11px, 39px, 11px, 39px;
+    border-radius: 50px;
+    gap: 10px;
+    background-color: #000000;
+    /* margin-right: 60px; */
+}
+.left-flx{
+	margin-left: 70px;
+	color: white;
+	font-family: monospace;
+	margin-top: 5px;
+}
+.rt-flx{
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.sub-flx{
+	margin-right: 50px;
+}
+.sub-flx>div{
+	margin-bottom: 10px;
+}
+
+.rights{
+	height: 40px;
+	width: 100vw;
+	background-color: #22242A;
+}
+.rights>div{
+	color: white;
+	font-size: 16px;
+		margin-left: 20px;
+		padding-top: 0.5%;
+}
+.subsc {
+    width: 99px;
+    height: 20px;
+    position: absolute;
+    z-index: 11;
+    color: white;
+    transform: translateX(-6px) translateY(-6px);
+}
